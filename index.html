@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front-End</title>
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/style-2.css" media="screen and (max-width: 530px)">
+    <link rel="stylesheet" href="estilos/style-3.css" media="screen and (min-width: 531px)">
+    <link rel="stylesheet" href="estilos/style-4.css" media="screen and (min-width: 810px)">
+</head>
+<body onload="carregar()">
+    <header>
+        <nav>
+            <div id="menu">
+                <div id="btn-menu">
+                    <img src="imagens/cardapio.png" alt="Botão de Menu." onclick="Menu()"><span onclick="Menu()">Menu</span>
+                </div>
+
+                <div id="botoes">
+                    <div id="btn-home">
+                        <img src="imagens/botao-home (1).png" alt="Foto de Botão Home."><span>Home</span>
+                    </div>
+
+                    <div id="btn-configuracoes">
+                        <img src="imagens/configuracoes-cog.png" alt="Botão de Configurações."><span>Configurações</span>
+                    </div>
+
+                    <div id="btn-tema">
+                        <img src="imagens/forma-de-meia-lua.png" alt="Botão de Contraste."><span>Tema</span>
+                    </div>
+
+                    <div id="btn-perfil">
+                        <img src="imagens/perfil-de-usuario.png" alt="Botão de Perfil de Usuário."><span>Criar Conta</span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="perfil">
+                <div id="img-usuario">
+                    <a href="foto.html" target="_self"><img src="imagens/felismino.jpg" alt="Perfil do Usuário."></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <article  tabindex="0" onclick="tirarMenu()">
+            <h1 id="titulo-1">Títuo 1</h1>
+
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, fugit ut! Voluptatum voluptatibus necessitatibus sit optio, laborum, iure ad sed provident ipsa consequatur laudantium ab officiis, quidem rem dolores explicabo! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit nihil nemo soluta qui autem, perspiciatis rerum vero! Laboriosam enim molestiae aliquam, itaque ratione quo tempora aliquid officia soluta nemo odit! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, exercitationem ullam. Non vero maiores praesentium dolore delectus quo! Voluptatem veritatis hic velit totam? Architecto obcaecati, ex fugiat excepturi a corporis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus consequatur totam explicabo vel minus amet eos officia dolorem? Reiciendis consequuntur eum alias at consectetur eligendi nemo asperiores quasi natus adipisci!</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, fugit ut! Voluptatum voluptatibus necessitatibus sit optio, laborum, iure ad sed provident ipsa consequatur laudantium ab officiis, quidem rem dolores explicabo! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit nihil nemo soluta qui autem, perspiciatis rerum vero! Laboriosam enim molestiae aliquam, itaque ratione quo tempora aliquid officia soluta nemo odit! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, exercitationem ullam. Non vero maiores praesentium dolore delectus quo! Voluptatem veritatis hic velit totam? Architecto obcaecati, ex fugiat excepturi a corporis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus consequatur totam explicabo vel minus amet eos officia dolorem? Reiciendis consequuntur eum alias at consectetur eligendi nemo asperiores quasi natus adipisci!</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, fugit ut! Voluptatum voluptatibus necessitatibus sit optio, laborum, iure ad sed provident ipsa consequatur laudantium ab officiis, quidem rem dolores explicabo! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit nihil nemo soluta qui autem, perspiciatis rerum vero! Laboriosam enim molestiae aliquam, itaque ratione quo tempora aliquid officia soluta nemo odit! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, exercitationem ullam. Non vero maiores praesentium dolore delectus quo! Voluptatem veritatis hic velit totam? Architecto obcaecati, ex fugiat excepturi a corporis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus consequatur totam explicabo vel minus amet eos officia dolorem? Reiciendis consequuntur eum alias at consectetur eligendi nemo asperiores quasi natus adipisci!</p>
+
+            <h1>Título 2</h1>
+
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, fugit ut! Voluptatum voluptatibus necessitatibus sit optio, laborum, iure ad sed provident ipsa consequatur laudantium ab officiis, quidem rem dolores explicabo! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit nihil nemo soluta qui autem, perspiciatis rerum vero! Laboriosam enim molestiae aliquam, itaque ratione quo tempora aliquid officia soluta nemo odit! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, exercitationem ullam. Non vero maiores praesentium dolore delectus quo! Voluptatem veritatis hic velit totam? Architecto obcaecati, ex fugiat excepturi a corporis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus consequatur totam explicabo vel minus amet eos officia dolorem? Reiciendis consequuntur eum alias at consectetur eligendi nemo asperiores quasi natus adipisci!</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, fugit ut! Voluptatum voluptatibus necessitatibus sit optio, laborum, iure ad sed provident ipsa consequatur laudantium ab officiis, quidem rem dolores explicabo! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit nihil nemo soluta qui autem, perspiciatis rerum vero! Laboriosam enim molestiae aliquam, itaque ratione quo tempora aliquid officia soluta nemo odit! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, exercitationem ullam. Non vero maiores praesentium dolore delectus quo! Voluptatem veritatis hic velit totam? Architecto obcaecati, ex fugiat excepturi a corporis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus consequatur totam explicabo vel minus amet eos officia dolorem? Reiciendis consequuntur eum alias at consectetur eligendi nemo asperiores quasi natus adipisci!</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, fugit ut! Voluptatum voluptatibus necessitatibus sit optio, laborum, iure ad sed provident ipsa consequatur laudantium ab officiis, quidem rem dolores explicabo! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit nihil nemo soluta qui autem, perspiciatis rerum vero! Laboriosam enim molestiae aliquam, itaque ratione quo tempora aliquid officia soluta nemo odit! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, exercitationem ullam. Non vero maiores praesentium dolore delectus quo! Voluptatem veritatis hic velit totam? Architecto obcaecati, ex fugiat excepturi a corporis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus consequatur totam explicabo vel minus amet eos officia dolorem? Reiciendis consequuntur eum alias at consectetur eligendi nemo asperiores quasi natus adipisci!</p>
+
+            <h1>Título 3</h1>
+
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, fugit ut! Voluptatum voluptatibus necessitatibus sit optio, laborum, iure ad sed provident ipsa consequatur laudantium ab officiis, quidem rem dolores explicabo! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit nihil nemo soluta qui autem, perspiciatis rerum vero! Laboriosam enim molestiae aliquam, itaque ratione quo tempora aliquid officia soluta nemo odit! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, exercitationem ullam. Non vero maiores praesentium dolore delectus quo! Voluptatem veritatis hic velit totam? Architecto obcaecati, ex fugiat excepturi a corporis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus consequatur totam explicabo vel minus amet eos officia dolorem? Reiciendis consequuntur eum alias at consectetur eligendi nemo asperiores quasi natus adipisci!</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, fugit ut! Voluptatum voluptatibus necessitatibus sit optio, laborum, iure ad sed provident ipsa consequatur laudantium ab officiis, quidem rem dolores explicabo! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit nihil nemo soluta qui autem, perspiciatis rerum vero! Laboriosam enim molestiae aliquam, itaque ratione quo tempora aliquid officia soluta nemo odit! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, exercitationem ullam. Non vero maiores praesentium dolore delectus quo! Voluptatem veritatis hic velit totam? Architecto obcaecati, ex fugiat excepturi a corporis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus consequatur totam explicabo vel minus amet eos officia dolorem? Reiciendis consequuntur eum alias at consectetur eligendi nemo asperiores quasi natus adipisci!</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, fugit ut! Voluptatum voluptatibus necessitatibus sit optio, laborum, iure ad sed provident ipsa consequatur laudantium ab officiis, quidem rem dolores explicabo! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit nihil nemo soluta qui autem, perspiciatis rerum vero! Laboriosam enim molestiae aliquam, itaque ratione quo tempora aliquid officia soluta nemo odit! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, exercitationem ullam. Non vero maiores praesentium dolore delectus quo! Voluptatem veritatis hic velit totam? Architecto obcaecati, ex fugiat excepturi a corporis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus consequatur totam explicabo vel minus amet eos officia dolorem? Reiciendis consequuntur eum alias at consectetur eligendi nemo asperiores quasi natus adipisci!</p>
+        </article>
+    </main>
+
+    <footer>
+        <div>
+            <span><a href="https://felisminochico.github.io/ssl" target="_blank" rel="author" hreflang="pt-br">SSL</a></span>
+            <span><a href="https://felisminochico.github.io/tabuada" target="_blank" rel="author" hreflang="pt-br">Tabuada</a></span>
+            <span><a href="https://felisminochico.github.io/estagio" target="_blank" rel="author" hreflang="pt-br">Estágio</a></span>
+            <span><a href="https://web.facebook.com/profile.php?id=100095111573302" target="_blank" rel="external">Facebook</a></span>
+            <span><a href="https://www.instagram.com/felisminochico/?next=%2F" target="_blank" rel="external">Instagram</a></span>
+            <span><a href="https://github.com/felisminochico" target="_blank" rel="external">GitHub</a></span>
+        </div>
+        <p>Site Desenvolvido por <strong>Felismino Chico.</strong></p>
+    </footer>
+
+    <script src="javascript/teste.js"></script>
+</body>
+</html>

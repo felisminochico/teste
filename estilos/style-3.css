@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+/* Configurações para dispositivos com min-width:531px */
+
+header > nav{
+    background-color: rgb(4, 4, 105);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    z-index: 3;
+}
+
+header > nav > div#menu{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+header > nav > div#menu > div#btn-menu{
+    align-items: center;
+    column-gap: 20px;
+    display: flex;
+}
+
+header > nav > div#menu > div#botoes{
+    background-color: rgb(9, 19, 75);
+    display: flex;
+    row-gap: 15px;
+    flex-direction: column;
+    transform: translateX(-150%);
+    transition-duration: 1s;
+    position: fixed;
+    top: 47px;
+    z-index: 2;
+}
+
+header > nav > div#menu > div#botoes > div{
+    align-items: center;
+    column-gap: 20px;
+    display: flex;
+}
+
+header > nav > div#menu > div#botoes > div > span{
+    color: white;
+    cursor: pointer;
+} 
+
+header > nav > div#menu > div#btn-menu > img{
+    cursor: pointer;
+    transition-duration: 1s;
+    width: 33px;
+} 
+
+header > nav > div#menu > div#botoes > div > img{
+    cursor: pointer;
+    margin-left: 5px;
+    transition-duration: 1s;
+    width: 33px;
+}
+
+
+header > nav > div#perfil > div > a > img{
+    border-radius: 50%;
+    cursor: pointer;
+    width: 40px;
+}
+
+header > nav > div#menu > div > span{
+    color: white;
+    cursor: pointer;
+}
+
+main > article{
+    background-color: white;
+    margin: auto;
+    max-width: 550px;
+    padding: 10px;
+}
+
+main > article > h1#titulo-1{
+    padding: 36px 0px 26px 0px;
+}
+
+main > article > h1{
+    font-size: 2em;
+    padding: 26px 0px;
+    text-align: center;
+}
+
+main > article > p{
+    margin-bottom: 10px;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+footer{
+    align-content: center;
+    background-color: rgb(9, 19, 75);
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 10px;
+}
+
+footer > p, span{
+    color: white;
+    text-align: center;
+}
